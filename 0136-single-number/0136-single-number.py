@@ -1,7 +1,7 @@
 class Solution(object):
     def singleNumber(self, nums):
-     result=0
+     a=0
      for num in nums:
-        result ^=num
-     return result
+        a ^=num
+     return a
         
